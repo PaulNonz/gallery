@@ -1,0 +1,139 @@
+@media only screen and (max-width: 768px) {
+.gallery-portion{
+    background-image: url('../img/gn-gallery-first-img.png');
+    height: 300px;
+    /* width: 100vw; */
+    left: 0px;
+    top: 145px;
+    border-radius: 0px;
+    background-size: cover;
+}
+
+.banner-background1 {
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: linear-gradient(90deg, #A6A6A860, #A6A6A860), url("../img/check-in-background.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.gallery-overlay{
+    background-color: rgba(128, 128,128, 0.5);
+    height: 300px;
+}
+
+.gallery-overlay:hover{
+    background-color: rgba(128, 128,128, 0.6);
+    height: 300px;
+    transition-delay: 1ms;
+}
+
+.gallery-text-center{
+    padding-top: 9rem;
+    height:  48px;
+    width: auto;
+}
+
+.section-portion-img-section{
+    width: auto;
+    height: 450px;
+    /* background-image: url('../img/gn-customers.png'); */
+}
+.text-width-custom-95{
+    width: 97%;
+}
+
+.text-greyyy{
+    color: #1A1A1A ;
+}
+
+.bottom-bor{
+    border-bottom:  #AF13AF;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-background1 {
+    
+        background-image: url("../img/check-in-background.png");
+      
+    }
+    .fs-headline-2 {
+        font-size: 21px !important;
+        line-height: 29px !important;
+    }
+    .card{
+        width: 90% !important;
+    }
+
+    .fs-copyright{
+        font-size: 21px !important;
+        line-height: 29px !important;
+    }
+
+    .box-shad-1{
+        box-shadow: #1A1A1A;
+    }
+    .section-portion-img-section{
+        height: 163px !important;
+        width: 100%;
+    }
+    .sd{
+        width: 100% !important;
+        height: auto!important;
+    }
+
+    .container-fluid{
+        padding: 0% !important;
+    } 
+}
+
+@media only screen and (max-width: 425px) {
+    .fs-headline-2 {
+        font-size: 14px !important;
+        line-height: 22px !important;
+    }
+    .fs-copyright{
+       font-size: 17.8px !important;
+    }
+
+    .gallery-portion{
+        background-image: url('../img/gn-gallery-first-img.png');
+        height: 140px;
+        /* width: 100vw; */
+        left: 0px;
+        top: 145px;
+        border-radius: 0px;
+    }
+
+    .fs-headline-1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .gallery-overlay{
+        background-color: rgba(128, 128,128, 0);
+        height: 300px;
+    }
+    
+    .gallery-overlay:hover{
+        background-color: rgba(128, 128,128, 0.6);
+
+    }
+
+    .gallery-text-center{
+        padding-top: 4rem;
+        height:  48px;
+        width: auto;
+    }
+
+    .section-portion-img-section{
+        height: 163px !important;
+    }
+    .fss{
+        font-size: 18px !important;
+    }
+}
+
