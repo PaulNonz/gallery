@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/gn-css.css">
-    <title>Kimberly Hotel</title>
+    <title>Gallery-page</title>
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -22,7 +22,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-white py-3 py-lg-0">
             <div class="container-fluid d-flex align-items-center justify-content-between px-0">
-                <a href="index.html" class="navbar-brand height-50px md-height-75px me-lg-5 me-xl-5 ms-3 ms-md-5 ms-lg-4 ms-xl-5">
+                <a href="components-default.html" class="navbar-brand height-50px md-height-75px me-lg-5 me-xl-5 ms-3 ms-md-5 ms-lg-4 ms-xl-5">
                     <img src="img/logo.png" alt="Our Logo" class="h-100">
                 </a>
                 <button class="navbar-toggler bg-pink-1 py-2 px-3 me-3 me-md-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarOneContent" aria-controls="navbarOneContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,46 +64,50 @@
             </div>
         </nav>
     </header>
-    <section class="banner-background d-flex justify-content-center align-items-center height-150px md-height-200px lg-height-300px position-relative">
-        <h1 class="fs-headline-2 fw-700 text-center text-white text-uppercase m-0">Gallery</h1>
-        <!-- <div class="background-mask-2 w-100 h-100 position-absolute top-0 start-0"></div> -->
-    </section>
-    <section class="second-portion p-5 100vh hms2-border mt-5 border container card box-shad-1" data-aos="fade-up"   data-aos="zoom-in" >
-        <h4 class="fss fs-body-1  d-inline d-md-none d-md-none fw-700 text-pink">Reception Desk</h4>
-        <div class="section-portion-text " data-aos="fade-up"  data-aos-delay="200">
-            <h4 class="text-width-custom-95 text-left fs-headline-2 pt-4 pb-3 ">At Kimberly hotel, we pride ourselves in giving our customers the warmest reception they can possible have. </h4>
-        </div>
-        <!-- <div class="section-portion-img-section mx-auto d-lg-flex d-none "> -->
-            <img class="mx-auto d-flex text-center justify-item-center 100vh mb-5 img-fluid d-lg-flex  pt-lg-2 " src="img/gn-customers.png" alt="" data-aos="fade-up"  data-aos-delay="400">
-        <!-- </div> -->
-        <!-- <div class="section-portion-img-section mx-auto d-flex d-lg-none"> -->
-            <!-- <img class="mx-auto d-flex text-center justify-item-center  mb-5 img-fluid d-inline d-lg-none" src="img/gn-md-gallery.png" alt=""> -->
-        <!-- </div> -->
-    </section>
-    <section class="gym-portion content-box-1 bdr-rad-1  p-5 100vh hms2-border mt-5 border container card" data-aos="fade-up" >
-        <h4 class="fs-headline-1  fw-700 text-pink" data-aos="fade-up"  data-aos-delay="100">Gym</h4>
-        <div class="section-portion-text" data-aos="fade-up"  data-aos-delay="200">
-            <h4 class="text-width-custom-95 text-left fs-headline-2 pt-4 pb-3 ">At Kimberly hotel, we pride ourselves in giving our 
-                customers the warmest reception they can possible have. </h4>
-        </div>
-        <!-- <div class="section-portion-img-section mx-auto ""> -->
-            <img class="mx-auto d-flex text-center justify-item-center 100vh mb-5 img-fluid mt-2y" src="img/gn-gym.png.png" alt="" data-aos="fade-up"  data-aos-delay="200">
-        <!-- </div> -->
-    </section>
-    <section class="deluxe-portion content-box-1 bdr-rad-1  p-5 100vh hms2-border mt-5 border container card box-shad-1" data-aos="fade-up" >
-        <div class="d-flex" data-aos="fade-up"  data-aos-delay="100">
-            <h4 class="fs-headline-1 ps-lg-4 fw-700 text-pink">Deluxe room</h4>
-            <p class="fs-small mt-3 ms-2 d-none d-lg-flex">N400,000/night</p>
-        </div>
-        <h4 class="text-width-custom-95 text-left fs-headline-2 pt-4 pb-3 ps-lg-4" data-aos="fade-up"  data-aos-delay="200">At Kimberly hotel, your comfort is our priority 
-            and our signature rooms are built specifically for that.  <span class="d-lg-none text-pink fw-700">N400,000/night</span> </h4>
-        <div class="d-lg-flex d-inline  row container-fluid data-aos="fade-up" data-aos-delay="300"">
-            <div class="col section-portion-img-secti mx-auto " data-aos="zoom-in" data-aos-delay="500">
-                <img class=" img-fluid  100vh" src="img/gn-deluxe.png" alt="">
+    <section class="gallery-portion justify-content-center align-items-center height-150px md-height-200px lg-height-300px  ">
+        <div class="gallery-overlay height-150px md-height-200px lg-height-300px position-relative">
+            <div class="gallery-text-center d-flex justify-item-center">
+                <h4 class="fs-headline-1 fw-700 text-center text-white text-uppercase m-0 ">GALLERY</h4>
             </div>
-            <div class="bor-der col section-portion-text lg-bg-neutral-5 mb-0 pb-0 d-lg-inline d-none" data-aos="zoom-in" data-aos-delay="300">
-                <p class="bottom-bor text-center fs-caption pt-4 text-greyyy fw-500">Room Amenities</p>
-                <ul class="pb-0">
+        </div>
+    </section>
+    <section class="second-portion overflow-hid 100vh p-0 bdr-rad-1 mt-xxl-5 hms2-border mt-4 border container box-shad-1" data-aos="fade-up" data-aos-delay="100">
+       <div class="gn-container pt-3 ps-3 pe-3">
+            <h4 class=" fs-body-1 pb-5 d-inline d-md-none d-md-none fw-700 text-pink mt-4" data-aos="fade-up"  data-aos-delay="100">Reception Desk</h4>
+            <div class="section-portion-text cobtainer pt-2 pt-lg-4 pb-lg-4 " data-aos="fade-up"  data-aos-delay="200">
+                <h4 class="text-width-custom-95 text-left fs-write-up  text-grey-5 fw-400 ps-lg-4">
+                    At Kimberly hotel, we pride ourselves in giving our customers the warmest 
+                    reception they can possible have. </h4>
+            </div>
+       </div>
+        <img class="img-widthi mx-auto img-fluid d-flex text-center justify-item-center pt-2 d-lg-flex pb-lg-5 pt-lg-2 " src="img/gn-customers.png" alt="" data-aos="fade-up"  data-aos-delay="300">
+    </section>
+
+    <section class="second-portion overflow-hid 100vh p-0 bdr-rad-1 mt-xxl-5 hms2-border mt-4 border container box-shad-1" data-aos="fade-up" data-aos-delay="100">
+        <div class="gn-container pt-3 ps-3 pe-3 pt-lg-5 pb-lg-4">
+             <h4 class=" fs-body-1 pb-5 d-inline  fw-700 text-pink mt-4 mt-lg-5 ps-lg-4" data-aos="fade-up"  data-aos-delay="100">Gym</h4>
+             <div class="section-portion-text cobtainer pt-2 " data-aos="fade-up"  data-aos-delay="200">
+                 <h4 class="text-width-custom-95 text-left fs-write-up pt-lg-3 text-grey-5 fw-400 ps-lg-4">
+                    At Kimberly hotel, we pride ourselves in giving our 
+                customers the warmest reception they can possible have. </h4>
+             </div>
+        </div>
+        <img class="img-widthi mx-auto img-fluid d-flex text-center justify-item-center pt-2 d-lg-flex  pt-lg-1 pb-lg-5 " src="img/gn-gym.png.png" alt="" data-aos="fade-up"  data-aos-delay="300">
+    </section>
+    <section class="deluxe-portion content-box-1 bdr-rad-1   100vh hms2-border mt-5 border container card box-shad-1" data-aos="fade-up" data-aos-delay="100">
+        <div class="d-flex " data-aos="fade-up"  data-aos-delay="200">
+            <h4 class="fs-body-1  d-inline  fw-700 text-pink mt-4 mt-lg-4 ps-lg-4">Deluxe room</h4>
+            <p class="fs-copyright fw-bold forgot mt-4 pt-2 ms-2 d-none d-lg-flex">N400,000/night</p>
+        </div>
+        <h4 class="text-width-custom-95 text-left fs-write-up pt-1 pb-3 ps-lg-4 text-grey-5" data-aos="fade-up"  data-aos-delay="200">At Kimberly hotel, your comfort is our priority 
+            and our signature rooms are built specifically for that.  <span class="d-lg-none text-pink fw-700">N400,000/night</span> </h4>
+        <div class="d-lg-flex d-inline  row  overflow-hid pb-lg-4"  data-aos="fade-up" data-aos-delay="300"">
+            <div class="col ps-lg-4 pb-lg-3" data-aos="zoom-in" data-aos-delay="400">
+                <img class="imgs img-fluid  100vh" src="img/gn-deluxe.png" alt="">
+            </div>
+            <div class="bottom-bor col section-portion-text lg-bg-neutral-5 mb-0 pb-0 d-lg-inline d-none overflow-hid" data-aos="zoom-in" data-aos-delay="500">
+                <p class=" text-center fs-caption pt-4 text-greyyy fw-500">Room Amenities</p>
+                <ul class="pb-0" id="ul-listing">
                     <li class="fs-copyright pt-3">Free Breakfast & Lunch</li>
                     <li class="fs-copyright pt-3">Free WiFi</li>
                     <li class="fs-copyright pt-3">Satelite TV</li>
@@ -114,46 +118,46 @@
                 </ul>
             </div>
         </div>
-        <p class="fs-copyright  d-flex d-lg-none pt-3">Free breakfast, free wifi, satellite tv, air condition, children's playroom, mini bar, Playstation</p>
+        <p class="fs-copyright  d-flex d-lg-none pt-3 text-dark">Free breakfast, free wifi, satellite tv, air condition, children's playroom, mini bar, Playstation</p>
     </section>
-    <section class="deluxe-portion content-box-1 bdr-rad-1  p-5 100vh hms2-border mt-5 border container card box-shad-1" data-aos="fade-up" >
-        <div class="d-lg-flex d-inline " data-aos="fade-up" data-aos-delay="100">
-            <h4 class="fs-headline-1 ps-lg-4 fw-700 text-pink">Honey Mooners room</h4>
-            <p class="fs-small mt-3 ms-2 d-none d-lg-flex">N250,000/night</p>
+    <section class="deluxe-portion content-box-1 bdr-rad-1   100vh hms2-border mt-5 border container card box-shad-1" data-aos="fade-up" data-aos-delay="100">
+        <div class="d-flex " data-aos="fade-up"  data-aos-delay="200">
+            <h4 class="fs-body-1  d-inline  fw-700 text-pink mt-4 mt-lg-4 ps-lg-4">Honey Mooners room</h4>
+            <p class="fs-copyright fw-bold forgot mt-4 pt-2 ms-2 d-none d-lg-flex">N250,000/night</p>
         </div>
-        <h4 class="text-width-custom-95 text-left fs-headline-2 pt-4 pb-3 ps-lg-4">At Kimberly hotel, your comfort is our priority 
-            and our signature rooms are built specifically for that.  <span class="d-lg-none text-pink fw-700">N400,000/night</span> </h4>
-        <div class="d-lg-flex d-inline  row container-fluid ">
-            <div class="col section-portion-img-sectio mx-auto " data-aos="zoom-in" data-aos-delay="300">
+        <h4 class="text-width-custom-95 text-left fs-write-up pt-1 pb-3 ps-lg-4 text-grey-5" data-aos="fade-up"  data-aos-delay="200">At Kimberly hotel, your comfort is our priority 
+            and our signature rooms are built specifically for that.   <span class="d-lg-none text-pink fw-700">N400,000/night</span> </h4>
+        <div class="d-lg-flex d-inline  row  overflow-hid pb-lg-4 "  data-aos="fade-up" data-aos-delay="300"">
+            <div class="col ps-lg-4 pb-lg-3" data-aos="zoom-in" data-aos-delay="400">
                 <img class=" img-fluid  " src="img/gn-mooners.png" alt="">
             </div>
-            <div class="bor-der col section-portion-text lg-bg-neutral-5 mb-0 pb-0 d-lg-inline d-none" data-aos="zoom-in" data-aos-delay="500">
-                <p class="bottom-bor text-center fs-caption pt-4 text-greyyy fw-500">Room Amenities</p>
+            <div class="bottom-bor col section-portion-text lg-bg-neutral-5 mb-0 pb-0 d-lg-inline d-none overflow-hid" data-aos="zoom-in" data-aos-delay="500">
+                <p class=" text-center fs-caption pt-4 text-greyyy fw-500">Room Amenities</p>
                 <ul class="pb-0">
-                    <li class="fs-copyright pt-3">Free Breakfast & Lunch</li>
-                    <li class="fs-copyright pt-3">Free WiFi</li>
-                    <li class="fs-copyright pt-3">Satelite TV</li>
-                    <li class="fs-copyright pt-3">Air Condition</li>
-                    <li class="fs-copyright pt-3">Jacuzzi</li>
-                    <li class="fs-copyright pt-3">Mini Bar</li>
+                    <li class="fs-copyright pt-2">Free Breakfast & Lunch</li>
+                    <li class="fs-copyright pt-2">Free WiFi</li>
+                    <li class="fs-copyright pt-2">Satelite TV</li>
+                    <li class="fs-copyright pt-2">Air Condition</li>
+                    <li class="fs-copyright pt-2">Jacuzzi</li>
+                    <li class="fs-copyright pt-2">Mini Bar</li>
                 </ul>
             </div>
         </div>
-        <p class="fs-copyright  d-flex d-lg-none pt-3">Free breakfast, free wifi, satellite tv, air condition, Jacuzzi, mini bar</p>
+        <p class="fs-copyright  d-flex d-lg-none pt-3 text-dark">Free breakfast, free wifi, satellite tv, air condition, children's playroom, mini bar, Playstation</p>
     </section>
-    <section class="deluxe-portion content-box-1 bdr-rad-1  p-5 100vh hms2-border mt-5 border container card box-shad-1" data-aos="fade-up">
-        <div class="d-lg-flex d-inline " data-aos="fade-up" data-aos-delay="100">
-            <h4 class="fs-headline-1 ps-lg-4 fw-700 text-pink">Standard room</h4>
-            <p class="fs-small mt-3 ms-2 d-none d-lg-flex">N100,000/night</p>
+    <section class="deluxe-portion content-box-1 bdr-rad-1   100vh hms2-border mt-5 border container card box-shad-1" data-aos="fade-up" data-aos-delay="100">
+        <div class="d-flex " data-aos="fade-up"  data-aos-delay="200">
+            <h4 class="fs-body-1  d-inline  fw-700 text-pink mt-4 mt-lg-4 ps-lg-4">Standard room</h4>
+            <p class="fs-copyright fw-bold forgot mt-4 pt-2 ms-2 d-none d-lg-flex">N100,000/night</p>
         </div>
-        <h4 class="text-width-custom-95 text-left fs-headline-2 pt-4 pb-3 ps-lg-4">At Kimberly hotel, your comfort is our priority 
-            and our signature rooms are built specifically for that.  <span class="d-lg-none text-pink fw-700">N400,000/night</span>  </h4>
-        <div class="d-lg-flex d-inline  row container-fluid ">
-            <div class="col section-portion-img-sectio  " data-aos="zoom-in" data-aos-delay="500">
-                <img class="sd img-fluid 100vw" src="img/gn-stand.png" alt="">
+        <h4 class="text-width-custom-95 text-left fs-write-up pt-1 pb-3 ps-lg-4 text-grey-5" data-aos="fade-up"  data-aos-delay="200">At Kimberly hotel, your comfort is our priority 
+            and our signature rooms are built specifically for that.   <span class="d-lg-none text-pink fw-700">N400,000/night</span> </h4>
+        <div class="d-lg-flex d-inline  row  overflow-hid "  data-aos="fade-up" data-aos-delay="300"">
+            <div class="col ps-lg-4 " data-aos="zoom-in" data-aos-delay="400">
+                <img class="sd img-fluid " src="img/gn-stand.png" alt="">
             </div>
-            <div class="bor-der col section-portion-text lg-bg-neutral-5 mb-0 pb-0 d-lg-inline d-none" data-aos="zoom-in" data-aos-delay="300">
-                <p class="bottom-bor text-center fs-caption pt-4 text-greyyy fw-500">Room Amenities</p>
+            <div class="bottom-bor col section-portion-text lg-bg-neutral-5 mb-0 pb-0 d-lg-inline d-none overflow-hid" data-aos="zoom-in" data-aos-delay="500">
+                <p class=" text-center fs-caption pt-4 text-greyyy fw-500">Room Amenities</p>
                 <ul class="pb-0">
                     <li class="fs-copyright pt-3">Free Breakfast </li>
                     <li class="fs-copyright pt-3">Free WiFi</li>
@@ -162,21 +166,21 @@
                 </ul>
             </div>
         </div>
-        <p class="fs-copyright  d-flex d-lg-none pt-3">Free breakfast, free wifi, satellite tv, air condition</p>
+        <p class="fs-copyright  d-flex d-lg-none pt-3 text-dark">Free breakfast, free wifi, satellite tv, air condition</p></p>
     </section>
-    <section class="deluxe-portion content-box-1 bdr-rad-1  p-5 100vh hms2-border mt-5 border container mb-5 card box-shad-1">
-        <div class="d-lg-flex" data-aos="fade-up" data-aos-delay="100">
-            <h4 class="fs-headline-1 ps-lg-4 fw-700 text-pink">Premium Suite</h4>
-            <p class="fs-small mt-3 ms-2 d-none d-lg-flex">N500,000/night</p>
+    <section class="deluxe-portion content-box-1 bdr-rad-1   100vh hms2-border mt-5 border container card box-shad-1" data-aos="fade-up" data-aos-delay="100">
+        <div class="d-flex " data-aos="fade-up"  data-aos-delay="200">
+            <h4 class="fs-body-1  d-inline  fw-700 text-pink mt-4 mt-lg-4 ps-lg-4">Premium Suite</h4>
+            <p class="fs-copyright fw-bold forgot mt-4 pt-2 ms-2 d-none d-lg-flex">N500,000/night</p>
         </div>
-        <h4 class="text-width-custom-95 text-left fs-headline-2 pt-4 pb-3 ps-lg-4">At Kimberly hotel, your comfort is our priority 
-            and our signature rooms are built specifically for that.  <span class="d-lg-none text-pink fw-700">N400,000/night</span> </h4>
-        <div class="d-lg-flex d-inline row container-fluid ">
-            <div class="col section-portion-img-sectio mx-auto " data-aos="zoom-in" data-aos-delay="300">
-                <img class=" img-fluid" src="img/gn-premium.png" alt="">
+        <h4 class="text-width-custom-95 text-left fs-write-up pt-1 pb-3 ps-lg-4 text-grey-5" data-aos="fade-up"  data-aos-delay="200">At Kimberly hotel, your comfort is our priority 
+            and our signature rooms are built specifically for that.   <span class="d-lg-none text-pink fw-700">N400,000/night</span> </h4>
+        <div class="last-portion d-lg-flex d-inline  row  overflow-hid "  data-aos="fade-up" data-aos-delay="300"">
+            <div class="col ps-lg-4 " data-aos="zoom-in" data-aos-delay="400">
+                <img class="imggg img-fluid" src="img/gn-premium.png" alt="">
             </div>
-            <div class="bor-der col section-portion-text lg-bg-neutral-5 mb-0 pb-0 d-lg-inline d-none" data-aos="zoom-in" data-aos-delay="500">
-                <p class="bottom-bor text-center fs-caption pt-4 text-greyyy fw-500">Room Amenities</p>
+            <div class="bottom-bor col section-portion-text lg-bg-neutral-5 d-lg-inline d-none overflow-hid" data-aos="zoom-in" data-aos-delay="500">
+                <p class=" text-center fs-caption pt-4 text-greyyy fw-500">Room Amenities</p>
                 <ul class="pb-0">
                     <li class="fs-copyright pt-2">Buffet</li>
                     <li class="fs-copyright pt-2">Free WiFi</li>
@@ -189,8 +193,9 @@
                 </ul>
             </div>
         </div>
-        <p class="fs-copyright  d-flex d-lg-none pt-3">Buffet service, free wifi, satellite tv, air condition, children’s playroom, mini bar, Playstation, penthouse, private pool, Jacuzzi</p>
+        <p class="fs-copyright  d-flex d-lg-none pt-3 text-dark">Buffet service, free wifi, satellite tv, air condition, children’s playroom, mini bar, Playstation, penthouse, private pool, Jacuzzi</p></p>
     </section>
+  
     <footer id="main-footer" class=" bg-neutral-footer text-white">
     <div class="container">
         <div class="row py-5">
@@ -249,13 +254,12 @@
        </div>
     </div>
     </footer>
-
     <script src="js/bootstrap.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/aos.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script> <!-- Please be sure you have this included for admin pages -->
-    <script src="js/main.js"></script>                                          <!-- It's for the icons in the sidenav -->
+    <!-- <script src="js/main.js"></script>                                          It's for the icons in the sidenav -->
 
     <script>
         AOS.init();

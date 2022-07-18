@@ -1032,7 +1032,7 @@ input[type="checkbox"]:focus, input[type="checkbox"]:active {
     background-repeat: no-repeat;
 }
 .banner-background {
-    width: 100vw;
+    /* width: 100vw; */
     overflow-x: hidden;
     background-color: rgba(128, 128,128, 0.5);
     background-image: linear-gradient(90deg, #A6A6A860, #A6A6A860), url("../img/check-in-background.png");
